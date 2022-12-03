@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Hyzmat Hazynasy</title>
+		<!--<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300"
+		/>-->
+		<!-- Google web font "Open Sans" -->
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='css/bootstrap.min.css')}}"
+		/>
+		<!-- https://getbootstrap.com/ -->
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='fontawesome/css/fontawesome-all.min.css')}}"
+		/>
+		<!-- https://fontawesome.com/ -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{{url_for('static', filename='slick/slick.css')}}"
+		/>
+		<!-- http://kenwheeler.github.io/slick/ -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{{url_for('static', filename='slick/slick-theme.css')}}"
+		/>
+		<link
+			rel="stylesheet"
+			href="{{url_for('static', filename='css/tooplate-style.css')}}"
+		/>
+		<!-- Templatemo style -->
+
+		<script>
+			document.documentElement.className = "js";
+			var supportsCssVars = function () {
+				var e,
+					t = document.createElement("style");
+				return (
+					(t.innerHTML = "root: { --tmp-var: bold; }"),
+					document.head.appendChild(t),
+					(e = !!(
+						window.CSS &&
+						window.CSS.supports &&
+						window.CSS.supports("font-weight", "var(--tmp-var)")
+					)),
+					t.parentNode.removeChild(t),
+					e
+				);
+			};
+			supportsCssVars() ||
+				alert(
+					"Please view this in a modern browser such as latest version of Chrome or Microsoft Edge."
+				);
+		</script>
+	</head>
+
+	<body>
+		<div id="tm-bg"></div>
+		<div id="tm-bg-layer"></div>
+		<div id="tm-wrap">
+			<div class="tm-main-content">
+				<div class="container tm-site-header-container">
+					<div class="row">
+						<div
+							class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col"
+						>
+							<div class="tm-site-header">
+								<h1 class="mb-4">Hyzmat Hazynasy</h1>
+								<img
+									src="{{url_for('static', filename='img/underline.png')}}"
+									class="img-fluid mb-4"
+								/>
+								<p>Sanly hyzmat we söwda agentligi</p>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+							<div class="content">
+								<div class="grid">
+									<div class="grid__item" id="home-link">
+										<div class="product">
+											<div class="tm-nav-link">
+												<i class="fas fa-home fa-3x tm-nav-icon"></i>
+												<span class="tm-nav-text">Esasy</span>
+												<div class="product__bg"></div>
+											</div>
+											<div class="product__description">
+												<div class="row mb-3">
+													<div class="col-12">
+														<h2 class="tm-page-title">Hyzmat hazynasy</h2>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+														<img
+															src="{{url_for('static', filename='img/welcome-1.jpg')}}"
+															class="img-fluid mb-3"
+														/>
+														<p>
+															You can feel free to use this template for your
+															websites. Please tell your friends about Tooplate
+															website. Thank you.
+														</p>
+														<p>
+															Vivamus placerat in nunc eget volutpat. Etiam
+															tincidunt blandit sapien, sed posuere enim. Ut
+															eget ornare lectus.
+														</p>
+													</div>
+													<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+														<p>
+															Donec eu lectus ligula. Aenean pulvinar dolor et
+															massa lacinia rhoncus sit amet sed mauris. Aliquam
+															dictum nibh et consequat finibus.
+														</p>
+														<p>
+															Lorem ipsum dolor sit amet, consectetur adipiscing
+															elit. In magna mauris, malesuada ut diam eu,
+															pellentesque fringilla orci.
+														</p>
+														<img
+															src="{{url_for('static', filename='img/welcome-2.jpg')}}"
+															class="img-fluid"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="grid__item" id="team-link">
+										<div class="product">
+											<div class="tm-nav-link">
+												<i class="fas fa-cubes fa-3x tm-nav-icon"></i>
+												<span class="tm-nav-text">Sargytlar</span>
+												<div class="product__bg"></div>
+											</div>
+											<div class="product__description">
+												<div class="p-sm-4 p-2">
+													<div class="row mb-3">
+														<div class="col-12">
+															<h2 class="tm-page-title">
+																Soňky tapylan sanly sargytlar
+															</h2>
+														</div>
+													</div>
+													<div class="row tm-reverse-sm">
+														<div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+															<table
+																class="table table-dark table-responsive table-hover mt-3"
+															>
+																<thead>
+																	<tr>
+																		<th scope="col">#</th>
+																		<th scope="col">Ady</th>
+																		<th scope="col">Sene</th>
+																		<th scope="col">Ýagdaý</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>1</td>
+																		<td>
+																			TedX Ekologiýa goraýyş leksiýa ýazgysy
+																		</td>
+																		<td>21.11.22</td>
+																		<td class="text-success">Üstünlik</td>
+																	</tr>
+																	<tr>
+																		<td>2</td>
+																		<td>Deýl Karnegi - How to stop worrying</td>
+																		<td>09.09.22</td>
+																		<td class="text-danger">Fail</td>
+																	</tr>
+																	<tr>
+																		<td>3</td>
+																		<td>Güneş - Köne Güzer</td>
+																		<td>14.05.22</td>
+																		<td class="text-warning">Gözlegde</td>
+																	</tr>
+																	<tr>
+																		<td>4</td>
+																		<td>Häzirki zaman türkmen morfologiýasy</td>
+																		<td>29.04.22</td>
+																		<td class="text-success">Üstünlik</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<!--<div
+															class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4"
+														>
+															<img src="{{url_for('static', filename='img/team.jpg')}}" class="img-fluid" />
+														</div>-->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="grid__item">
+										<div class="product">
+											<div class="tm-nav-link">
+												<i class="fas fa-qrcode fa-3x tm-nav-icon"></i>
+												<span class="tm-nav-text">Kody giriz</span>
+												<div class="product__bg"></div>
+											</div>
+											<div class="product__description">
+												<div class="p-sm-4 p-2">
+													<div class="row mb-3">
+														<div class="col-12">
+															<h2 class="tm-page-title">Haryt Kody giriz</h2>
+														</div>
+													</div>
+													<div class="row mb-3">
+														<div class="col-12">
+															<p>
+																Sanly sargydyňyzy ýüklemek üçin siziň belgiňize
+																we e-poçtaňyza iberilen gizlin kody giriziň
+															</p>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<div class="input-group mb-3">
+																<div class="input-group-prepend">
+																	<span
+																		class="input-group-text"
+																		id="basic-addon1"
+																		style="
+																			background-color: #353541;
+																			color: white;
+																			border-color: #1a1a20;
+																		"
+																		>Kod</span
+																	>
+																</div>
+																<input
+																	type="text"
+																	class="form-control"
+																	placeholder="secret_code"
+																	aria-label="secret_code"
+																	aria-describedby="basic-addon1"
+																/>
+															</div>
+
+															<button
+																type="submit"
+																class="btn btn-primary tm-btn-submit"
+															>
+																Ýükle
+															</button>
+
+															<!--<div class="p-sm-4 p-2 tm-img-container">
+																<div class="tm-img-slider" id="tmImgSlider">
+																	<img
+																		src="{{url_for('static', filename='img/gallery-img-01-tn.jpg')}}"
+																		alt="Image"
+																		class="tm-slider-img"
+																	/>
+																	<img
+																		src="{{url_for('static', filename='img/gallery-img-02-tn.jpg')}}"
+																		alt="Image"
+																		class="tm-slider-img"
+																	/>
+																	<img
+																		src="{{url_for('static', filename='img/gallery-img-03-tn.jpg')}}"
+																		alt="Image"
+																		class="tm-slider-img"
+																	/>
+																	<img
+																		src="{{url_for('static', filename='img/gallery-img-04-tn.jpg')}}"
+																		alt="Image"
+																		class="tm-slider-img"
+																	/>
+																	<img
+																		src="{{url_for('static', filename='img/gallery-img-05-tn.jpg')}}"
+																		alt="Image"
+																		class="tm-slider-img"
+																	/>
+																	<img
+																		src="{{url_for('static', filename='img/gallery-img-06-tn.jpg')}}"
+																		alt="Image"
+																		class="tm-slider-img"
+																	/>
+																</div>
+															</div>-->
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="grid__item">
+										<div class="product">
+											<div class="tm-nav-link">
+												<i class="fas fa-comments fa-3x tm-nav-icon"></i>
+												<span class="tm-nav-text">Sargamak</span>
+												<div class="product__bg"></div>
+											</div>
+											<div class="product__description">
+												<div
+													class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3"
+												>
+													<div class="row mb-3">
+														<div class="col-12">
+															<h2 class="tm-page-title">
+																Isleýän sanly haryt sargamak
+															</h2>
+														</div>
+													</div>
+													<div class="row mb-4">
+														<div class="col-12">
+															<p>
+																Kitap, programma, wideo we beýleki gözleýän
+																sanly maglumat barada gysgaça mazmun beriň,
+																biziň işgärlerimiz size olary tapar
+															</p>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<form
+																action="index.html"
+																method="post"
+																class="contact-form"
+															>
+																<div class="row">
+																	<div
+																		class="form-group col-md-6 col-lg-6 col-xl-6 tm-col-email"
+																	>
+																		<input
+																			type="email"
+																			id="user_email"
+																			name="user_email"
+																			class="form-control"
+																			placeholder="E-poçtaňyz"
+																			required
+																		/>
+																	</div>
+
+																	<div
+																		class="form-group col-md-6 col-lg-6 col-xl-6"
+																	>
+																		<input
+																			type="text"
+																			id="user_phone"
+																			name="user_phone"
+																			class="form-control"
+																			placeholder="Belgiňiz"
+																			required
+																		/>
+																	</div>
+
+																	<div
+																		class="form-group col-md-6 col-lg-6 col-xl-6"
+																	>
+																		<input
+																			type="text"
+																			id="product_name"
+																			name="product_name"
+																			class="form-control"
+																			placeholder="Haryt ady"
+																			required
+																		/>
+																	</div>
+																</div>
+
+																<div class="form-group">
+																	<textarea
+																		id="product_desc"
+																		name="product_desc"
+																		class="form-control"
+																		rows="3"
+																		placeholder="Mazmuny"
+																		required
+																	></textarea>
+																</div>
+																<button
+																	type="submit"
+																	class="btn btn-primary tm-btn-submit"
+																>
+																	Iber
+																</button>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .tm-main-content -->
+		</div>
+		<!-- load JS -->
+		<script src="{{url_for('static', filename='js/jquery-3.2.1.slim.min.js')}}"></script>
+		<!-- https://jquery.com/ -->
+		<script src="{{url_for('static', filename='slick/slick.min.js')}}"></script>
+		<!-- http://kenwheeler.github.io/slick/ -->
+		<script src="{{url_for('static', filename='js/anime.min.js')}}"></script>
+		<!-- http://animejs.com/ -->
+		<script src="{{url_for('static', filename='js/main.js')}}"></script>
+		<script>
+			function setupFooter() {
+				var pageHeight =
+					$(".tm-site-header-container").height() + $("footer").height() + 100;
+
+				var main = $(".tm-main-content");
+
+				if ($(window).height() < pageHeight) {
+					main.addClass("tm-footer-relative");
+				} else {
+					main.removeClass("tm-footer-relative");
+				}
+			}
+
+			/* DOM is ready
+        ------------------------------------------------*/
+			$(function () {
+				setupFooter();
+
+				$(window).resize(function () {
+					setupFooter();
+				});
+
+				$(".tm-current-year").text(new Date().getFullYear()); // Update year in copyright
+			});
+		</script>
+	</body>
+</html>
